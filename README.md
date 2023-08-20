@@ -1,2 +1,0 @@
-# daegred.github.io
- 
