@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>对不起是我太菜了 on Welcome, the forlorn</title>
+    <link>http://daegred.netlify.app/tags/%E5%AF%B9%E4%B8%8D%E8%B5%B7%E6%98%AF%E6%88%91%E5%A4%AA%E8%8F%9C%E4%BA%86/</link>
+    <description>Recent content in 对不起是我太菜了 on Welcome, the forlorn</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 03 Aug 2020 13:57:16 +0800</lastBuildDate><atom:link href="http://daegred.netlify.app/tags/%E5%AF%B9%E4%B8%8D%E8%B5%B7%E6%98%AF%E6%88%91%E5%A4%AA%E8%8F%9C%E4%BA%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>论小白的编程</title>
+      <link>http://daegred.netlify.app/post/%E9%9A%8F%E7%AC%94/%E8%AE%BA%E5%B0%8F%E7%99%BD%E7%9A%84%E7%BC%96%E7%A8%8B/</link>
+      <pubDate>Mon, 03 Aug 2020 13:57:16 +0800</pubDate>
+      
+      <guid>http://daegred.netlify.app/post/%E9%9A%8F%E7%AC%94/%E8%AE%BA%E5%B0%8F%E7%99%BD%E7%9A%84%E7%BC%96%E7%A8%8B/</guid>
+      <description>又名编程小白之死 在开始用 cmd 之前： 我：这个应用的 UI 不好看，拜拜了。 摸了摸 cmd 黑黑的身躯之后： 我：这个应用居然有 UI，我爱她。 我：输入命令。 黑框框</description>
+    </item>
+    
+  </channel>
+</rss>

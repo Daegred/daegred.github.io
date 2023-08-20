@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>面向小白 on Welcome, the forlorn</title>
+    <link>http://daegred.netlify.app/tags/%E9%9D%A2%E5%90%91%E5%B0%8F%E7%99%BD/</link>
+    <description>Recent content in 面向小白 on Welcome, the forlorn</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 03 Aug 2020 15:42:38 +0800</lastBuildDate><atom:link href="http://daegred.netlify.app/tags/%E9%9D%A2%E5%90%91%E5%B0%8F%E7%99%BD/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>用 hugo 搭建博客</title>
+      <link>http://daegred.netlify.app/post/%E9%9A%8F%E7%AC%94/%E7%94%A8-hugo-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Mon, 03 Aug 2020 15:42:38 +0800</pubDate>
+      
+      <guid>http://daegred.netlify.app/post/%E9%9A%8F%E7%AC%94/%E7%94%A8-hugo-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>写在前面：这篇文章旨在记录一个普通的非计算机专业学生在 Windows 10 系统里折腾 Hugo 博客的过程，作备忘之用。如果有相似处境的人读到了这篇文档，并从中得到了</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>太神奇了 on Welcome, the forlorn</title>
+    <link>http://daegred.netlify.app/tags/%E5%A4%AA%E7%A5%9E%E5%A5%87%E4%BA%86/</link>
+    <description>Recent content in 太神奇了 on Welcome, the forlorn</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 05 Aug 2020 17:54:37 +0800</lastBuildDate><atom:link href="http://daegred.netlify.app/tags/%E5%A4%AA%E7%A5%9E%E5%A5%87%E4%BA%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>天命昭昭</title>
+      <link>http://daegred.netlify.app/post/%E9%9A%8F%E7%AC%94/%E5%A4%A9%E5%91%BD%E6%98%AD%E6%98%AD/</link>
+      <pubDate>Wed, 05 Aug 2020 17:54:37 +0800</pubDate>
+      
+      <guid>http://daegred.netlify.app/post/%E9%9A%8F%E7%AC%94/%E5%A4%A9%E5%91%BD%E6%98%AD%E6%98%AD/</guid>
+      <description>是这样的！昨晚我写小说的时候试图打开知乎摸鱼，然后—— [DNS 错误] [找不到这个网站的 IP 地址] 我：？？？！！！ 事已至此，我第一反应肯定是我的 VPN 插件</description>
+    </item>
+    
+  </channel>
+</rss>

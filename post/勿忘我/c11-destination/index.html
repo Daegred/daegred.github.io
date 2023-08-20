@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>C11 Destination - Welcome, the forlorn</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Daegred" /><meta name="description" content="( Castellum No.14 ) “我是您的舰载 A. I. Stellae。默认配置完毕。” “燃料状态 36%。您的坐标为████████” …… 这是他们第一次进入真正的飞船。白" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.99.1 with theme even" />
+
+
+<link rel="canonical" href="http://daegred.netlify.app/post/%E5%8B%BF%E5%BF%98%E6%88%91/c11-destination/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+<link href="/sass/main.min.ad5cae707e0df333c7cb34132222c29ff360b643d58ba678685f12406856942b.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="C11 Destination" />
+<meta property="og:description" content="( Castellum No.14 ) “我是您的舰载 A. I. Stellae。默认配置完毕。” “燃料状态 36%。您的坐标为████████” …… 这是他们第一次进入真正的飞船。白" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://daegred.netlify.app/post/%E5%8B%BF%E5%BF%98%E6%88%91/c11-destination/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2020-07-09T13:57:16+08:00" />
+<meta property="article:modified_time" content="2020-07-09T13:57:16+08:00" />
+
+<meta itemprop="name" content="C11 Destination">
+<meta itemprop="description" content="( Castellum No.14 ) “我是您的舰载 A. I. Stellae。默认配置完毕。” “燃料状态 36%。您的坐标为████████” …… 这是他们第一次进入真正的飞船。白"><meta itemprop="datePublished" content="2020-07-09T13:57:16+08:00" />
+<meta itemprop="dateModified" content="2020-07-09T13:57:16+08:00" />
+<meta itemprop="wordCount" content="2216">
+<meta itemprop="keywords" content="勿忘我," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="C11 Destination"/>
+<meta name="twitter:description" content="( Castellum No.14 ) “我是您的舰载 A. I. Stellae。默认配置完毕。” “燃料状态 36%。您的坐标为████████” …… 这是他们第一次进入真正的飞船。白"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">May you find hope.</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">首页</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">归档</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">分类</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">关于</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">May you find hope.</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">首页</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">归档</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">分类</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">关于</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">C11 Destination</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2020-07-09 </span>
+        <div class="post-category">
+            <a href="/categories/%E5%8B%BF%E5%BF%98%E6%88%91/"> 勿忘我 </a>
+            </div>
+        
+      </div>
+    </header>
+
+    
+    <div class="post-content">
+      <p>( Castellum No.14 )</p>
+<p>“我是您的舰载 A. I. Stellae。默认配置完毕。”</p>
+<p>“燃料状态 36%。您的坐标为████████”</p>
+<p>……</p>
+<p>这是他们第一次进入真正的飞船。白汶仔细地调整了座椅和安全带的位置，在失重状态下，他刚好漂浮在它们中间。他感到一种奇妙的快慰。自从他出生以来，还从未征服任何东西像征服一艘飞船一样。佩迪不会理解这种感受。希理斯和塔莫更不会，因为他们早已征服了自己的恋人。白汶深吸一口气。</p>
+<p>“三号位？”塔莫问。</p>
+<p>“到。”他说。</p>
+<p>“维持常规队形巡航。”塔莫下令。他们漂浮在失重中。如果不是飞船仪器显示他坐标的变化，这就和静止没有任何区别。他们掠过群星，群星为这些年轻的飞行者们让路；他们也越过黑暗。这是绝对的静谧。</p>
+<p>他回头瞟了一眼佩迪的飞船，她飞得还算稳。四艘飞船漂浮在接近纯黑的背景里，就像四滴银。</p>
+<p>塔莫下令要他们集合到密集队形。操作是一样的，但这次他明显地感受到了惯性力的作用。白汶欣喜若狂，他终于补上了以往的飞行中缺失的唯一一块。他不在乎这力量会不会将他撕碎，因为宇宙就是这样——人在其中不过是一片落叶，人岂能祈求群星、射线或真空的怜悯呢？人必屈服。然而唯有直面宇宙的真实，他们才称得上完整的人，而不是苟活在行星保护下的弱者。</p>
+<p>他漂亮地靠拢过去，抖都没有抖。</p>
+<p>“巡航。”</p>
+<p>“警戒队型。”</p>
+<p>白汶根据指令漂亮地完成了每一个动作，就像挪动他自己的手指。他生平第一次不再在乎自己是个 Omega，因为他是这艘“星云”的王。</p>
+<hr>
+<p>那天返航后白汶昂首挺胸地跳下飞船，克莱帕真诚地笑着拍拍他的肩膀，说他飞得很漂亮。克莱帕的脸色不是很好，青白色，还有浓重的黑眼圈。希理斯和塔莫都来称赞他，但佩迪只要用眼睛就能称赞他了。白汶笑得腼腆。晚上他看见希理斯坐在书桌前，绞尽脑汁地想写什么。他凑过去看，希理斯抬起头来，他这才意识到对方写的不是通用语。</p>
+<p>“在写什么……？”他犹疑地问。</p>
+<p>希理斯别过头去，紧紧地咬住嘴唇。白汶从来没见过他这样。希理斯说：“今天去了太空，我想到了一些不好的事……</p>
+<p>“所以就…随便写写。”希理斯扭过头去，看着空白的墙。他们都知道希理斯在隐瞒。</p>
+<p>白汶点了点头。他说：“我先睡了。”</p>
+<p>他在昏暗的灯光下刷完牙，靠在枕头上就睡着了，此前从来没有睡得这么快过。白汶梦见自己坐在星云 -Y 里，在黑色的太空中缓缓滑行。他听见自己的心跳声。仪表飞快地跳动着。他听见自己说：“采样星图，进行坐标对照。”</p>
+<p>Stellae：“请稍等……”</p>
+<p>Stellae：“坐标为 104A153. 64O122。”</p>
+<p>然后舰载 A. I. 的声音变了，变成千万个人声的重叠，好像扬声器坏了似的；这些声音高高低低夹杂在一起，仿佛金属划过陶瓷，令人不寒而栗，</p>
+<p>S??????：“啊，亲爱的白汶，欢迎——你有什么问题吗？有什么问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题——”</p>
+<p>“问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题问题——”</p>
+<p>白汶吓醒了。他大睁着眼睛，希理斯正在一边打呼噜。那可怕的、循环的语音吓得他不敢入睡，此刻仍在耳边回响。整个梦境清晰得不自然。他在床上辗转反侧，最终不得不承认自己不可能睡着了。他心惊肉跳地溜下床，拿出终端，心神不宁地看了会书。他看到了<em>席德</em>。他又往回翻到苏格拉底那里，因为觉得自己忘了。然而他心烦意乱，也看不进去书。</p>
+<p>白汶叹了口气，他早就知道自己想要什么：那是他跑遍各大公共网站和图书馆都翻不到的信标，那个出现在他每一个梦里的信标。104A153. 64O122。谁知道那里有什么样的东西呢？现在他只剩下一个选项了。去问萧漠。</p>
+<p>萧漠会怀疑他什么吗？萧漠会因为找不到文档而自责吗？萧漠……</p>
+<p>萧漠很快就给了他回信，是一份纸质文件的照片。纸质文件现在也很少见了，不知道他是怎么弄到的。他放大文本进行阅读，眼睛被高亮度图片刺得生疼。<em>104A153. 64O122 是个神秘的坐标。每过不等的一段时间，从这个位置就会自发地发射一些我军很有用的真实信息。一份图纸，一张星图，敌人的战略目标……最近出现的信息是便携式黑洞制造系统的结构。</em></p>
+<p>白汶蜷缩在那里，忘记了如何呼吸。</p>
+<hr>
+<p>……</p>
+<p><em>我们已经一只脚踏入了死之土，毫无保护地就走到黑夜之中去了，真相赤裸裸地暴露在面前。星空可以将我们轻易撕碎，很快我们将不仅死去、更加被所有人彻底忘却，就像尘埃一样。唉，我——我很害怕。很害怕。</em></p>
+<p><em>不过今天我有了答案。██████████████教给我死亡的分量，也告诉我死是多么轻易，因此死比起懦弱还是不算什么。故我坚信，不管他人会不会称之为愚蠢——危机降临时，不应当畏惧以卵击石。</em></p>
+<p>……</p>
+<hr>
+
+    </div>
+
+    
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/%E5%8B%BF%E5%BF%98%E6%88%91/">勿忘我</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c15-escapist/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">C15 Escapist</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        <a class="next" href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c10-submerged-reef/">
+            <span class="next-text nav-default">C10 Submerged Reef</span>
+            <span class="next-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:azerty618@126.com" class="iconfont icon-email" title="email"></a>
+      <a href="http://daegred.lofter.com" class="iconfont icon-tumblr" title="tumblr"></a>
+  <a href="http://daegred.netlify.app/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+     - 
+    2023
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">Daegred</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="/js/main.min.30dad356188cdaba5047112eaa8bf5e85cb14ae7e803337403591fce94a531a0.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      TeX: {equationNumbers: {autoNumber: "AMS"}},
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"  integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>
