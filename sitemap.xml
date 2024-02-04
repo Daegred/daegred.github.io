@@ -2,7 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://daegred.netlify.app/categories/</loc>
+    <lastmod>2024-02-03T15:45:01+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://daegred.netlify.app/tags/malazan/</loc>
+    <lastmod>2024-02-03T15:45:01+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://daegred.netlify.app/post/</loc>
+    <lastmod>2024-02-03T15:45:01+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://daegred.netlify.app/tags/</loc>
     <lastmod>2024-02-03T15:45:01+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -16,6 +37,20 @@
   </url>
   
   <url>
+    <loc>http://daegred.netlify.app/tags/whump/</loc>
+    <lastmod>2024-02-03T15:45:01+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://daegred.netlify.app/categories/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/</loc>
+    <lastmod>2024-02-03T15:45:01+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://daegred.netlify.app/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/%E5%9D%A0%E8%90%BD/</loc>
     <lastmod>2024-02-03T15:45:01+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -23,42 +58,7 @@
   </url>
   
   <url>
-    <loc>http://daegred.netlify.app/categories/</loc>
-    <lastmod>2023-12-25T19:58:51+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://daegred.netlify.app/tags/malazan/</loc>
-    <lastmod>2023-12-25T19:58:51+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://daegred.netlify.app/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/malazanau/</loc>
-    <lastmod>2023-12-25T19:58:51+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://daegred.netlify.app/tags/</loc>
-    <lastmod>2023-12-25T19:58:51+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://daegred.netlify.app/tags/whump/</loc>
-    <lastmod>2023-12-25T19:58:51+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://daegred.netlify.app/categories/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/</loc>
     <lastmod>2023-12-25T19:58:51+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
