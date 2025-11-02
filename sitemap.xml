@@ -3,35 +3,49 @@
   
   <url>
     <loc>http://daegred.netlify.app/categories/</loc>
-    <lastmod>2025-06-27T16:15:27+08:00</lastmod>
+    <lastmod>2025-11-02T19:38:28+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://daegred.netlify.app/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/examangband/</loc>
-    <lastmod>2025-06-27T16:15:27+08:00</lastmod>
+    <loc>http://daegred.netlify.app/tags/malazan/</loc>
+    <lastmod>2025-11-02T19:38:28+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://daegred.netlify.app/post/</loc>
-    <lastmod>2025-06-27T16:15:27+08:00</lastmod>
+    <lastmod>2025-11-02T19:38:28+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://daegred.netlify.app/tags/</loc>
-    <lastmod>2025-06-27T16:15:27+08:00</lastmod>
+    <lastmod>2025-11-02T19:38:28+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://daegred.netlify.app/</loc>
-    <lastmod>2025-06-27T16:15:27+08:00</lastmod>
+    <lastmod>2025-11-02T19:38:28+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://daegred.netlify.app/categories/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/</loc>
+    <lastmod>2025-11-02T19:38:28+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://daegred.netlify.app/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/blacksword/</loc>
+    <lastmod>2025-11-02T19:38:28+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -44,7 +58,7 @@
   </url>
   
   <url>
-    <loc>http://daegred.netlify.app/categories/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/</loc>
+    <loc>http://daegred.netlify.app/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/examangband/</loc>
     <lastmod>2025-06-27T16:15:27+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -65,13 +79,6 @@
   </url>
   
   <url>
-    <loc>http://daegred.netlify.app/post/%E9%9A%8F%E7%AC%94/sweetdream/</loc>
-    <lastmod>2025-06-27T16:11:05+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://daegred.netlify.app/tags/%E7%B2%BE%E7%A5%9E%E6%B4%BB%E6%80%A7%E7%89%A9%E8%B4%A8/</loc>
     <lastmod>2025-06-27T16:11:05+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -86,15 +93,15 @@
   </url>
   
   <url>
-    <loc>http://daegred.netlify.app/tags/%E5%8E%9F%E5%88%9B/</loc>
+    <loc>http://daegred.netlify.app/post/%E9%9A%8F%E7%AC%94/sweetdream/</loc>
     <lastmod>2025-06-27T16:11:05+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://daegred.netlify.app/tags/malazan/</loc>
-    <lastmod>2025-01-25T12:11:29+08:00</lastmod>
+    <loc>http://daegred.netlify.app/tags/%E5%8E%9F%E5%88%9B/</loc>
+    <lastmod>2025-06-27T16:11:05+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
