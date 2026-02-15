@@ -2,6 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://daegred.netlify.app/post/</loc>
+    <lastmod>2026-02-15T16:43:55+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://daegred.netlify.app/</loc>
+    <lastmod>2026-02-15T16:43:55+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://daegred.netlify.app/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/lordofnothing/</loc>
+    <lastmod>2026-02-15T16:43:55+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://daegred.netlify.app/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/destroycity/</loc>
+    <lastmod>2026-01-01T16:43:46+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://daegred.netlify.app/categories/</loc>
     <lastmod>2025-11-02T19:38:28+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -16,21 +44,7 @@
   </url>
   
   <url>
-    <loc>http://daegred.netlify.app/post/</loc>
-    <lastmod>2025-11-02T19:38:28+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://daegred.netlify.app/tags/</loc>
-    <lastmod>2025-11-02T19:38:28+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://daegred.netlify.app/</loc>
     <lastmod>2025-11-02T19:38:28+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
