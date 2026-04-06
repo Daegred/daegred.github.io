@@ -1,395 +1,374 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
+<html lang="zh-cn" dir="auto" data-theme="auto">
+
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Welcome, the forlorn</title>
-  <meta name="renderer" content="webkit" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+	<meta name="generator" content="Hugo 0.160.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Welcome, the forlorn</title>
 
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.199042e659bc7245f5609d333d6c044eb554a0640849bb874e1dff8eb0f57209.css" integrity="sha256-GZBC5lm8ckX1YJ0zPWwETrVUoGQISbuHTh3/jrD1cgk=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml" title="rss">
+<link rel="alternate" hreflang="zh-cn" href="http://localhost:1313/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
 
-<meta name="theme-color" content="#f8f5ec" />
-<meta name="msapplication-navbutton-color" content="#f8f5ec">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
 
+            .list {
+                background: var(--theme);
+            }
 
-<meta name="author" content="Daegred" />
+            .toc {
+                background: var(--entry);
+            }
+        }
 
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
 
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
 
-
-
-
-<meta name="generator" content="Hugo 0.99.1 with theme even" />
-
-
-<link rel="canonical" href="http://daegred.netlify.app/" />
-  <link href="http://daegred.netlify.app/index.xml" rel="alternate" type="application/rss+xml" title="Welcome, the forlorn" />
-  <link href="http://daegred.netlify.app/index.xml" rel="feed" type="application/rss+xml" title="Welcome, the forlorn" />
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-
-
-
-<link href="/sass/main.min.75e365d9b9403657efb78f136ce6e08bb8d6a7761cbc49ec2a90557bbd729bf9.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
-
-
-<meta property="og:title" content="Welcome, the forlorn" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://daegred.netlify.app/" />
-
-<meta itemprop="name" content="Welcome, the forlorn">
-<meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Welcome, the forlorn"/>
-<meta name="twitter:description" content=""/>
-
-<!--[if lte IE 9]>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
-<![endif]-->
-
-<!--[if lt IE 9]>
-  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
-<![endif]-->
-
+</script>
 </head>
-<body>
-  <div id="mobile-navbar" class="mobile-navbar">
-  <div class="mobile-header-logo">
-    <a href="/" class="logo">May you find hope.</a>
-  </div>
-  <div class="mobile-navbar-icon">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-</div>
-<nav id="mobile-menu" class="mobile-menu slideout-menu">
-  <ul class="mobile-menu-list">
-    <a href="/">
-        <li class="mobile-menu-item">首页</li>
-      </a><a href="/post/">
-        <li class="mobile-menu-item">归档</li>
-      </a><a href="/categories/">
-        <li class="mobile-menu-item">分类</li>
-      </a><a href="/about/">
-        <li class="mobile-menu-item">关于</li>
-      </a>
-  </ul>
-</nav>
-  <div class="container" id="mobile-panel">
-    <header id="header" class="header">
-        <div class="logo-wrapper">
-  <a href="/" class="logo">May you find hope.</a>
-</div>
-
-<nav class="site-navbar">
-  <ul id="menu" class="menu">
-    <li class="menu-item">
-        <a class="menu-item-link" href="/">首页</a>
-      </li><li class="menu-item">
-        <a class="menu-item-link" href="/post/">归档</a>
-      </li><li class="menu-item">
-        <a class="menu-item-link" href="/categories/">分类</a>
-      </li><li class="menu-item">
-        <a class="menu-item-link" href="/about/">关于</a>
-      </li>
-  </ul>
-</nav>
-    </header>
-
-    <main id="main" class="main">
-      <div class="content-wrapper">
-        <div id="content" class="content">
-          <section id="posts" class="posts">
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c18-behind-you/">C18 Behind You</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2020-07-17 </span>
-      <div class="post-category">
-          <a href="/categories/%E5%8B%BF%E5%BF%98%E6%88%91/"> 勿忘我 </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      #勿忘我 几天后这场分手事件的余波就散去了，各人又回到了原先的生活轨道。上飞机，进行训练，降落后因为疲倦迅速入睡，能挣扎着看本书的都是少数人。
-    </div>
-    <div class="read-more">
-      <a href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c18-behind-you/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c17-without-you/">C17 Without You</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2020-07-14 </span>
-      <div class="post-category">
-          <a href="/categories/%E5%8B%BF%E5%BF%98%E6%88%91/"> 勿忘我 </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      佩迪呆呆地坐在禁闭室内：她终于还是搞砸了。那让人不愿回想的主意是她的灵机一动，只为了让白汶免于更严重的惩罚。她在一巴掌扇过去的时候还天真地以
-    </div>
-    <div class="read-more">
-      <a href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c17-without-you/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c16-out-of-reach/">C16 Out of Reach</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2020-07-12 </span>
-      <div class="post-category">
-          <a href="/categories/%E5%8B%BF%E5%BF%98%E6%88%91/"> 勿忘我 </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      克莱帕头疼地坐在会议室外边，感慨自己的得意门生怎么比自己年轻时还能违反规定。他和莱蒙当年不过是被教练关几天禁闭，现在这一对连他也护不住了。他
-    </div>
-    <div class="read-more">
-      <a href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c16-out-of-reach/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c12-madly-in-love/">C12 Madly in Love</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2020-07-10 </span>
-      <div class="post-category">
-          <a href="/categories/%E5%8B%BF%E5%BF%98%E6%88%91/"> 勿忘我 </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      如果您想阅读 NE 线，请忽略横线下的内容。 如果您想阅读 TE 线，请继续。 抱歉，此网页遭受 55m95rG2 攻击，正文内容 5bey57uP5peg5rOV5q2j5bi4 显示。
-    </div>
-    <div class="read-more">
-      <a href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c12-madly-in-love/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c14-future-prospects/">C14 Future</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2020-07-10 </span>
-      <div class="post-category">
-          <a href="/categories/%E5%8B%BF%E5%BF%98%E6%88%91/"> 勿忘我 </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      #勿忘我 S. A. 1122，Castellum No. 14 （也可以说我们是跳过了两年时间） 每到年底，太空城都会调高灯光的暖度，因为绝大多数旧历法都把重大节
-    </div>
-    <div class="read-more">
-      <a href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c14-future-prospects/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c15-escapist/">C15 Escapist</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2020-07-10 </span>
-      <div class="post-category">
-          <a href="/categories/%E5%8B%BF%E5%BF%98%E6%88%91/"> 勿忘我 </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      #勿忘我 （这一章建议配一个 BGM 来读，理论上来说只要有旋律就可以了） 白汶左手在空中一挥，Stellae 的交互界面悬浮在空中。他迅速关掉了录音、扬
-    </div>
-    <div class="read-more">
-      <a href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c15-escapist/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c11-destination/">C11 Destination</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2020-07-09 </span>
-      <div class="post-category">
-          <a href="/categories/%E5%8B%BF%E5%BF%98%E6%88%91/"> 勿忘我 </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      ( Castellum No.14 ) “我是您的舰载 A. I. Stellae。默认配置完毕。” “燃料状态 36%。您的坐标为████████” …… 这是他们第一次进入真正的飞船。白
-    </div>
-    <div class="read-more">
-      <a href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c11-destination/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c10-submerged-reef/">C10 Submerged Reef</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2020-07-07 </span>
-      <div class="post-category">
-          <a href="/categories/%E5%8B%BF%E5%BF%98%E6%88%91/"> 勿忘我 </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      #勿忘我 （几个月后，一间空教室里） “……所以就是这样。嗯，真机飞行，它大概就是这么一回事。注意这些就行了。”克莱帕低着头，手插在口袋里，在讲
-    </div>
-    <div class="read-more">
-      <a href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c10-submerged-reef/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c9-my-confession/">C9 My confession</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2020-07-07 </span>
-      <div class="post-category">
-          <a href="/categories/%E5%8B%BF%E5%BF%98%E6%88%91/"> 勿忘我 </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      <p>希理斯的三天禁闭可称难熬，终端是不允许带进房间的。当他回到寝室时，神色看上去很是不妙。白汶有些紧张地看着他，不知道该说什么好。</p>
-<p>希理斯并没有难为室友。他叹了口气，坐在自己桌前，看了一会搞笑视频。然后他重重地说：“白哥……我真的做错了吗？”</p>
-    </div>
-    <div class="read-more">
-      <a href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c9-my-confession/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c8-puppy-love/">C8 Puppy Love</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2020-07-06 </span>
-      <div class="post-category">
-          <a href="/categories/%E5%8B%BF%E5%BF%98%E6%88%91/"> 勿忘我 </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      第七章主要内容：学员们接受了“知识注射”，将他们本需要花很长时间学习的东西直接输入脑海。在注射后，他们获得了一个短暂的假期。希理斯约塔莫、白
-    </div>
-    <div class="read-more">
-      <a href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c8-puppy-love/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    </section>
-  
-  <nav class="pagination">
-    <a class="prev" href="/page/8/">
-        <i class="iconfont icon-left"></i>
-        <span class="prev-text">上一页</span>
-      </a>
-    <a class="next" href="/page/10/">
-        <span class="next-text">下一页</span>
-        <i class="iconfont icon-right"></i>
-      </a>
-  </nav>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Welcome, the forlorn (Alt + H)">Welcome, the forlorn</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
         </div>
-        
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="首页">
+                    <span class="active">首页</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/post/" title="归档">
+                    <span>归档</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/" title="分类">
+                    <span>分类</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="关于">
+                    <span>关于</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
 
-      </div>
-    </main>
-
-    <footer id="footer" class="footer">
-      <div class="social-links">
-      <a href="mailto:azerty618@126.com" class="iconfont icon-email" title="email"></a>
-      <a href="http://daegred.lofter.com" class="iconfont icon-tumblr" title="tumblr"></a>
-  <a href="http://daegred.netlify.app/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
-</div>
-
-
-
-  
-
-  <span class="copyright-year">
-    &copy; 
-     - 
-    2026
-    <span class="heart">
-      <i class="iconfont icon-heart"></i>
-    </span>
-    <span class="author">Daegred</span>
-  </span>
-</div>
-    </footer>
-
-    <div class="back-to-top" id="back-to-top">
-      <i class="iconfont icon-up"></i>
-    </div>
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">NSSI ReadMe
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>我想了很久，最后还是决定在博客里开设这样一个分类，用来存储有关 NSSI （aka 非自杀性自伤行为，俗称自残）的翻译文章。目前来看，这些翻译页面的原文会来自 康奈尔大学的网站，参阅这里，他们允许在列明来源的情况下转载资源。其他地方如果有很好的资源我也会试着去做的。
+...</p>
   </div>
-  
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+  <footer class="entry-footer"><span title='2020-08-06 05:16:42 +0800 CST'>August 6, 2020</span></footer>
+  <a class="entry-link" aria-label="post link to NSSI ReadMe" href="http://localhost:1313/post/nssi/nssi-readme/"></a>
+</article>
 
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">天命昭昭
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>是这样的！昨晚我写小说的时候试图打开知乎摸鱼，然后——
+[DNS 错误]
+[找不到这个网站的 IP 地址]
+我：？？？！！！
+事已至此，我第一反应肯定是我的 VPN 插件出问题了嘛……于是把谷歌浏览器里所有的插件全关了，开任务管理器研究了一下有没有什么 VPN 的进程（虽然我记得今天压根就没试着翻墙，我也没有开机启动项）。结果是没有肉眼可见的 VPN 进程。为了以防万一，因为系统提示我蓝灯有风险，我就把蓝灯卸了。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2020-08-05 17:54:37 +0800 CST'>August 5, 2020</span></footer>
+  <a class="entry-link" aria-label="post link to 天命昭昭" href="http://localhost:1313/post/%E9%9A%8F%E7%AC%94/%E5%A4%A9%E5%91%BD%E6%98%AD%E6%98%AD/"></a>
+</article>
 
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">C24 The Dying
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>“你好，白汶，好久不见。”
+“……萧漠？”
+“是我。我想来找你聊聊天。”
+“……？”
+“我觉得很孤单。但有你在旁边，好像也就不那么孤单了。”
+“好。”
+（给我插管工具包！）
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2020-08-05 13:57:16 +0800 CST'>August 5, 2020</span>&nbsp;·&nbsp;<span>Daegred</span></footer>
+  <a class="entry-link" aria-label="post link to C24 The Dying" href="http://localhost:1313/post/%E5%8B%BF%E5%BF%98%E6%88%91/c24-the-dying/"></a>
+</article>
 
-<script type="text/javascript" src="/js/main.min.30dad356188cdaba5047112eaa8bf5e85cb14ae7e803337403591fce94a531a0.js"></script>
-  <script type="text/javascript">
-    window.MathJax = {
-      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
-      TeX: {equationNumbers: {autoNumber: "AMS"}},
-      showProcessingMessages: false,
-      messageStyle: 'none'
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">用 hugo 搭建博客
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>写在前面：这篇文章旨在记录一个普通的非计算机专业学生在 Windows 10 系统里折腾 Hugo 博客的过程，作备忘之用。如果有相似处境的人读到了这篇文档，并从中得到了一些建设 Hugo 博客的灵感，作者不胜荣幸。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2020-08-03 15:42:38 +0800 CST'>August 3, 2020</span>&nbsp;·&nbsp;<span>Daegred</span></footer>
+  <a class="entry-link" aria-label="post link to 用 hugo 搭建博客" href="http://localhost:1313/post/%E9%9A%8F%E7%AC%94/%E7%94%A8-hugo-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">论小白的编程
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>又名编程小白之死
+在开始用 cmd 之前： 我：这个应用的 UI 不好看，拜拜了。
+摸了摸 cmd 黑黑的身躯之后： 我：这个应用居然有 UI，我爱她。
+我：输入命令。
+黑框框：找不到指定路径。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2020-08-03 13:57:16 +0800 CST'>August 3, 2020</span>&nbsp;·&nbsp;<span>Daegred</span></footer>
+  <a class="entry-link" aria-label="post link to 论小白的编程" href="http://localhost:1313/post/%E9%9A%8F%E7%AC%94/%E8%AE%BA%E5%B0%8F%E7%99%BD%E7%9A%84%E7%BC%96%E7%A8%8B/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">乡愁
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>唉实话说我听《黄河谣》的时候是没什么感觉的——除了觉得这和声真是绝赞。论起原因，大概是我一不生长在黄河边，二不曾离开过北京，且大都市配上互联网，让人与土之间的情感愈发显得淡薄了。但看节目上的评委、观众与音乐制作人都感动落泪，我发现这首歌能在人群中普遍调动起情感，因此这一情感就不属于“个人困扰”的范畴了——只是借这一名词，我不认为情感本身是困扰——而应该落入了“公共议题”的范畴。下面，我将试图分析为什么“乡愁”这一情感能长久而浓烈地存在。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2020-08-03 10:52:28 +0800 CST'>August 3, 2020</span></footer>
+  <a class="entry-link" aria-label="post link to 乡愁" href="http://localhost:1313/post/%E9%9A%8F%E7%AC%94/%E4%B9%A1%E6%84%81/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">网络对文学发展的影响
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>虽然我认为反方在比赛中的表现更出色，我仍然相信网络的发展对文学创作利大于弊，这也正是本文论证的观点。
+正方主要围绕网络文学未来可能的发展论述，指出现有的低质量文章霸榜现象既不会持久，也不算在文学史上前所未有。实际上某些写作网站限制发展得相当繁茂，蕴含了大量有价值的内容。当袁润东学长提到 AO3 和 SCP 基金会的时候我激动得差点从椅子上掉下去……就以辩论中提到过的 AO3 为例，这是一个体量非常大的同人文创作平台，主流语言是英语，也有相当数量的法语、德语、俄语、印尼语、汉语等语言的文章。我读过一些发表在这个网站上的小说，长可达几十万字，短者或许一两千；这些文章并非反方所想的“霸道总裁爱上我”，纵使行文中或有些许幼稚不合理之处，仍能明显看到作者对于命运、亲情、种族平等等宏大议题的不同思考。部分文章的水准之高，假使不是同人文，未必不能发表在传统纸质媒体上。从中我们可以看到，高质量的、充满了包容性的网络文学创作未必不能实现，网络文学未必就意味着低质量文章霸榜，而且这不是遥远的未来才能发生的事情。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2020-08-03 00:00:00 +0000 UTC'>August 3, 2020</span>&nbsp;·&nbsp;<span>Daegred</span></footer>
+  <a class="entry-link" aria-label="post link to 网络对文学发展的影响" href="http://localhost:1313/post/%E9%9A%8F%E7%AC%94/%E7%BD%91%E6%96%87/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">C23 Ruins
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Location: Castellum No. 14
+萧袡坐在一片废墟之中。这里的气压正在缓慢下降，手持仪器估测得出还有 10 个小时到警戒线。比起通讯连接另一头的飞行员来说，这个时间非常够用了。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2020-08-01 13:57:16 +0800 CST'>August 1, 2020</span>&nbsp;·&nbsp;<span>Daegred</span></footer>
+  <a class="entry-link" aria-label="post link to C23 Ruins" href="http://localhost:1313/post/%E5%8B%BF%E5%BF%98%E6%88%91/c23-ruins/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Cx Login
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>LogIn 用5ZKM5oiR6IGK6IGK5aSp5ZCn户名：
+5Y&#43;q5pyJ5L2g6IO95pWR5oiR5LqG密码：
+请按 Enter 键登录。登陆完成后，界面会自动跳转。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2020-07-30 21:03:05 +0800 CST'>July 30, 2020</span></footer>
+  <a class="entry-link" aria-label="post link to Cx Login" href="http://localhost:1313/post/%E5%8B%BF%E5%BF%98%E6%88%91/cx-login/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">C22 Why
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Location: 104A153. 64O122
+BGM
+有那么一会白汶只是愣在驾驶座上，以为今天发生的一切不过是个噩梦。他经常梦到飞行，所以这种猜测很合情理。右耳边警报滴滴作响，提示他氧气已经不足，要尽快充装，他一拳砸在警报器上。金属栅栏纹丝不动，手倒是打得很疼，于是白汶明白了：这不是梦。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2020-07-30 13:57:16 +0800 CST'>July 30, 2020</span>&nbsp;·&nbsp;<span>Daegred</span></footer>
+  <a class="entry-link" aria-label="post link to C22 Why" href="http://localhost:1313/post/%E5%8B%BF%E5%BF%98%E6%88%91/c22-why/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="http://localhost:1313/page/8/">
+      «&nbsp;&nbsp;
+    </a>
+    <a class="next" href="http://localhost:1313/page/10/">&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Welcome, the forlorn</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
     };
-  </script>
-  <script async src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"  integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>
 
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
 
-
-
-
-
-
-
+</script>
 </body>
+
 </html>

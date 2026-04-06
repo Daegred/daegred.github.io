@@ -1,394 +1,370 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
+<html lang="zh-cn" dir="auto" data-theme="auto">
+
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Welcome, the forlorn</title>
-  <meta name="renderer" content="webkit" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+	<meta name="generator" content="Hugo 0.160.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Welcome, the forlorn</title>
 
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.199042e659bc7245f5609d333d6c044eb554a0640849bb874e1dff8eb0f57209.css" integrity="sha256-GZBC5lm8ckX1YJ0zPWwETrVUoGQISbuHTh3/jrD1cgk=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml" title="rss">
+<link rel="alternate" hreflang="zh-cn" href="http://localhost:1313/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
 
-<meta name="theme-color" content="#f8f5ec" />
-<meta name="msapplication-navbutton-color" content="#f8f5ec">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
 
+            .list {
+                background: var(--theme);
+            }
 
-<meta name="author" content="Daegred" />
+            .toc {
+                background: var(--entry);
+            }
+        }
 
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
 
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
 
-
-
-
-<meta name="generator" content="Hugo 0.99.1 with theme even" />
-
-
-<link rel="canonical" href="http://daegred.netlify.app/" />
-  <link href="http://daegred.netlify.app/index.xml" rel="alternate" type="application/rss+xml" title="Welcome, the forlorn" />
-  <link href="http://daegred.netlify.app/index.xml" rel="feed" type="application/rss+xml" title="Welcome, the forlorn" />
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-
-
-
-<link href="/sass/main.min.75e365d9b9403657efb78f136ce6e08bb8d6a7761cbc49ec2a90557bbd729bf9.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
-
-
-<meta property="og:title" content="Welcome, the forlorn" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://daegred.netlify.app/" />
-
-<meta itemprop="name" content="Welcome, the forlorn">
-<meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Welcome, the forlorn"/>
-<meta name="twitter:description" content=""/>
-
-<!--[if lte IE 9]>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
-<![endif]-->
-
-<!--[if lt IE 9]>
-  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
-<![endif]-->
-
+</script>
 </head>
-<body>
-  <div id="mobile-navbar" class="mobile-navbar">
-  <div class="mobile-header-logo">
-    <a href="/" class="logo">May you find hope.</a>
-  </div>
-  <div class="mobile-navbar-icon">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-</div>
-<nav id="mobile-menu" class="mobile-menu slideout-menu">
-  <ul class="mobile-menu-list">
-    <a href="/">
-        <li class="mobile-menu-item">首页</li>
-      </a><a href="/post/">
-        <li class="mobile-menu-item">归档</li>
-      </a><a href="/categories/">
-        <li class="mobile-menu-item">分类</li>
-      </a><a href="/about/">
-        <li class="mobile-menu-item">关于</li>
-      </a>
-  </ul>
-</nav>
-  <div class="container" id="mobile-panel">
-    <header id="header" class="header">
-        <div class="logo-wrapper">
-  <a href="/" class="logo">May you find hope.</a>
-</div>
-
-<nav class="site-navbar">
-  <ul id="menu" class="menu">
-    <li class="menu-item">
-        <a class="menu-item-link" href="/">首页</a>
-      </li><li class="menu-item">
-        <a class="menu-item-link" href="/post/">归档</a>
-      </li><li class="menu-item">
-        <a class="menu-item-link" href="/categories/">分类</a>
-      </li><li class="menu-item">
-        <a class="menu-item-link" href="/about/">关于</a>
-      </li>
-  </ul>
-</nav>
-    </header>
-
-    <main id="main" class="main">
-      <div class="content-wrapper">
-        <div id="content" class="content">
-          <section id="posts" class="posts">
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/%E9%9A%8F%E7%AC%94/physics/">雨夜长梦</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2020-10-25 </span>
-      <div class="post-category">
-          <a href="/categories/%E9%9A%8F%E7%AC%94/"> 随笔 </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      第一个晚上 你轻轻巧巧地走过半暗的长廊，长廊里没灯，尽头是复古的雕花窗户，正透进最后一线夕阳余晖。你的靴子叩击着地面，每一块砖，每一个世界都知
-    </div>
-    <div class="read-more">
-      <a href="/post/%E9%9A%8F%E7%AC%94/physics/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/%E9%9A%8F%E7%AC%94/%E5%8D%81%E6%9C%88/">十月</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2020-10-11 </span>
-      <div class="post-category">
-          <a href="/categories/%E9%9A%8F%E7%AC%94/"> 随笔 </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      以后长这个样子的楼可能会放我当月写的所有乱七八糟的小东西，所以一篇文章内部可能有多个更新。如果同期写了我特别想分享的东西，也会单列出来。 随便
-    </div>
-    <div class="read-more">
-      <a href="/post/%E9%9A%8F%E7%AC%94/%E5%8D%81%E6%9C%88/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/nssi/%E4%BB%8E%E8%87%AA%E4%BC%A4%E4%B8%AD%E5%BA%B7%E5%A4%8D/">从自伤中康复</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2020-09-14 </span>
-      <div class="post-category">
-          <a href="/categories/nssi/"> NSSI </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      本文写给谁？ 本文写给那些困扰于自伤的人，和对从自伤中康复的过程感兴趣的人。 本文包含什么内容？ 对康复过程的介绍； 几项技巧：评价自伤在你的生活中
-    </div>
-    <div class="read-more">
-      <a href="/post/nssi/%E4%BB%8E%E8%87%AA%E4%BC%A4%E4%B8%AD%E5%BA%B7%E5%A4%8D/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/nssi/%E7%A4%BC%E8%B2%8C%E7%9A%84%E5%A5%BD%E5%A5%87%E5%BF%83/">礼貌的好奇心（Respectful Curiosity）</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2020-08-28 </span>
-      <div class="post-category">
-          <a href="/categories/nssi/"> NSSI </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      原文 对家长和其他关心自伤者的人来说，“礼貌的好奇心”这一概念是非常有用的。实际上，它是一种广泛适用的教养策略，尤其是在你为孩子的态度或行为感
-    </div>
-    <div class="read-more">
-      <a href="/post/nssi/%E7%A4%BC%E8%B2%8C%E7%9A%84%E5%A5%BD%E5%A5%87%E5%BF%83/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/nssi/%E5%86%99%E7%BB%99%E7%88%B6%E6%AF%8D/">写给父母——关于自伤你需要知道什么？</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2020-08-28 </span>
-      <div class="post-category">
-          <a href="/categories/nssi/"> NSSI </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      本文写给谁？ 本文写给自伤者的父母 本文包括什么？ 如果你的孩子在自伤，你怎样才能知道？ 当有此发现时如何处理你的情绪？ 与你的孩子谈论他/她的自伤行
-    </div>
-    <div class="read-more">
-      <a href="/post/nssi/%E5%86%99%E7%BB%99%E7%88%B6%E6%AF%8D/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/miriel/">Miriel</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2020-08-23 </span>
-      <div class="post-category">
-          <a href="/categories/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/"> 二次创作 </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      那天窗外的树木正抽出新芽，我俯身亲吻了一下费雅纳罗潮红色的额头。婴儿正熟睡着，他的面孔让我既感到如释重负，又感到无比空虚。维林诺没有带来死亡
-    </div>
-    <div class="read-more">
-      <a href="/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/miriel/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/irish-man/">Irish Man</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2020-08-21 </span>
-      <div class="post-category">
-          <a href="/categories/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/"> 二次创作 </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      梅格洛尔视角，梗为 Schatten，时间轴现代，可能有一些死人（没死的人）出来刷存在感，爆字数预警。 分级：G。没有特殊的 CP 和敏感话题。 我已经
-    </div>
-    <div class="read-more">
-      <a href="/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/irish-man/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/nssi/power-struggle/">处理“权力斗争”（Dealing with power struggle）</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2020-08-20 </span>
-      <div class="post-category">
-          <a href="/categories/nssi/"> NSSI </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      与家长和成年人进行“权力斗争”是青少年成长中的正常现象，因为在这个阶段，年轻人开始表现出对独立和自主的需求。因此，他们更愿意质疑权威——尤其
-    </div>
-    <div class="read-more">
-      <a href="/post/nssi/power-struggle/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/fmn-fromauthor/">From author</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2020-08-18 </span>
-      <div class="post-category">
-          <a href="/categories/%E5%8B%BF%E5%BF%98%E6%88%91/"> 勿忘我 </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      特别提醒：本文有剧透诶，介意的可以看完正文再来这里。 我已经忘记了为什么开始写这个故事，可能是某天和@萧袡 / SalLy / 你们自己猜她本体是谁吧 聊天然后
-    </div>
-    <div class="read-more">
-      <a href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/fmn-fromauthor/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c30&#43;5i/">C30&#43;5i Happy End</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2020-08-17 </span>
-      <div class="post-category">
-          <a href="/categories/%E5%8B%BF%E5%BF%98%E6%88%91/"> 勿忘我 </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      警告：这组文档没有完成，并有很多缺损。系统为您自动跳过缺损的部分。 C1 Departure 家乡的天气总是那么阴郁，可惜我将永远不能摆脱这里了，白汶坐在面包车里，
-    </div>
-    <div class="read-more">
-      <a href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c30&#43;5i/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    </section>
-  
-  <nav class="pagination">
-    <a class="prev" href="/page/4/">
-        <i class="iconfont icon-left"></i>
-        <span class="prev-text">上一页</span>
-      </a>
-    <a class="next" href="/page/6/">
-        <span class="next-text">下一页</span>
-        <i class="iconfont icon-right"></i>
-      </a>
-  </nav>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Welcome, the forlorn (Alt + H)">Welcome, the forlorn</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
         </div>
-        
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="首页">
+                    <span class="active">首页</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/post/" title="归档">
+                    <span>归档</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/" title="分类">
+                    <span>分类</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="关于">
+                    <span>关于</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
 
-      </div>
-    </main>
-
-    <footer id="footer" class="footer">
-      <div class="social-links">
-      <a href="mailto:azerty618@126.com" class="iconfont icon-email" title="email"></a>
-      <a href="http://daegred.lofter.com" class="iconfont icon-tumblr" title="tumblr"></a>
-  <a href="http://daegred.netlify.app/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
-</div>
-
-
-
-  
-
-  <span class="copyright-year">
-    &copy; 
-     - 
-    2026
-    <span class="heart">
-      <i class="iconfont icon-heart"></i>
-    </span>
-    <span class="author">Daegred</span>
-  </span>
-</div>
-    </footer>
-
-    <div class="back-to-top" id="back-to-top">
-      <i class="iconfont icon-up"></i>
-    </div>
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">分享一点正能量吧
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>我在单元楼道里遇见那个学长一共有两次，这两次加在一起不到二十分钟的遭遇给我留下了至今近四年的后遗症：时不时会不顾一切地想洗手，或者想把右手上的皮剥下来。但直到在一次争执中——我妈质问我结婚前到底会不会和男朋友上床，我脱口而出：“结婚之前上床？我看见男人那东西都恶心！结婚之后我都不想上床！我都不想结婚！”
+...</p>
   </div>
-  
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+  <footer class="entry-footer"><span title='2021-08-08 23:23:59 +0800 CST'>August 8, 2021</span></footer>
+  <a class="entry-link" aria-label="post link to 分享一点正能量吧" href="http://localhost:1313/post/%E9%9A%8F%E7%AC%94/%E5%88%86%E4%BA%AB%E4%B8%80%E7%82%B9%E6%AD%A3%E8%83%BD%E9%87%8F%E5%90%A7/"></a>
+</article>
 
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">关于暴露狂和非暴露狂
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>我在单元楼道里遇见那个学长一共有两次，这两次加在一起不到二十分钟的遭遇给我留下了至今近四年的后遗症：时不时会不顾一切地想洗手，或者想把右手上的皮剥下来。但直到在一次争执中——我妈质问我结婚前到底会不会和男朋友上床，我脱口而出：“结婚之前上床？我看见男人那东西都恶心！结婚之后我都不想上床！我都不想结婚！”
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-08-08 20:12:54 +0800 CST'>August 8, 2021</span></footer>
+  <a class="entry-link" aria-label="post link to 关于暴露狂和非暴露狂" href="http://localhost:1313/post/%E9%9A%8F%E7%AC%94/%E5%85%B3%E4%BA%8E%E6%9A%B4%E9%9C%B2%E7%8B%82%E5%92%8C%E9%9D%9E%E6%9A%B4%E9%9C%B2%E7%8B%82/"></a>
+</article>
 
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">眼睛
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>你莫名其妙得到了一个望远镜，从目镜一端看过去，只能看到大地在燃烧。火好像在逼近又好像没有。你觉得它很无聊想砸了，却怎么也砸不坏；你想送人，但你身边没有人。所以你把它遗忘在灰尘里，偶尔闲来无事就拿起来看看。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-06-19 21:00:31 +0800 CST'>June 19, 2021</span></footer>
+  <a class="entry-link" aria-label="post link to 眼睛" href="http://localhost:1313/post/%E9%9A%8F%E7%AC%94/%E7%9C%BC%E7%9D%9B/"></a>
+</article>
 
-<script type="text/javascript" src="/js/main.min.30dad356188cdaba5047112eaa8bf5e85cb14ae7e803337403591fce94a531a0.js"></script>
-  <script type="text/javascript">
-    window.MathJax = {
-      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
-      TeX: {equationNumbers: {autoNumber: "AMS"}},
-      showProcessingMessages: false,
-      messageStyle: 'none'
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Whetstone
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Maedhros 视角，OOC。
+Elros 进来的时候，我在用 Maglor 的磨刀石磨剑。Feanorian 的剑是不怎么需要磨的，它们是 Feanor 亲手所铸；相应地，打磨它们也是件困难的工作，因为其硬度和韧性都好得惊人。磨刀石是从维林诺带过来的，一种父亲发明的，现已失传的合金，用来打磨一种失传了的剑，很合适。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-05-29 18:10:43 +0800 CST'>May 29, 2021</span></footer>
+  <a class="entry-link" aria-label="post link to Whetstone" href="http://localhost:1313/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/whetstone/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Malazan相关存档
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>The Malazan Book of the Fallen 系列及其前后外……传相关同人的存档楼，之所以放成一个楼并且塞进归档页纯粹是因为写得太烂了……
+一 Thousand Facets of War #Silchas Ruin 视角，Malazan 和 MiddleEarth 的 Xover。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-05-29 17:42:06 +0800 CST'>May 29, 2021</span></footer>
+  <a class="entry-link" aria-label="post link to Malazan相关存档" href="http://localhost:1313/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/malazan%E7%9B%B8%E5%85%B3%E5%AD%98%E6%A1%A3/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Narrative
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>cp：失联组
+分级：M？含有作者的各种战损恶趣味和其他奇怪 xp
+融合了SCP 基金会（尤其是 SCP-CN-2999 ）和托尔金神话的相关内容，对双方都进行了不合时宜的魔改，特此向双方作者道歉。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-04-29 18:08:29 +0800 CST'>April 29, 2021</span></footer>
+  <a class="entry-link" aria-label="post link to Narrative" href="http://localhost:1313/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/narrative/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">对白
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>一 脑子：你错过了作文的提交日期。
+我：那没关系，我还可以写，脸皮厚一点也可以去蹭课的。我没想到这么快就截止了。
+脑子：老师说没提交的不能去听课。
+我：她只是不建议。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-02-16 16:10:11 +0800 CST'>February 16, 2021</span></footer>
+  <a class="entry-link" aria-label="post link to 对白" href="http://localhost:1313/post/%E9%9A%8F%E7%AC%94/%E5%AF%B9%E7%99%BD/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">永不停歇，至死方休
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Maidros 和 Maglor，非常胡扯，时间线在泪雨之后。
+非常非常非常 OOC。
+我最好的斗篷长了一个橙色的蘑菇，与墨绿的青苔比起来，无疑很配这暗红色布料。我正对着蘑菇沉思和发笑时，有人推门进来。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-02-05 18:11:38 +0800 CST'>February 5, 2021</span></footer>
+  <a class="entry-link" aria-label="post link to 永不停歇，至死方休" href="http://localhost:1313/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/%E6%B0%B8%E4%B8%8D%E5%81%9C%E6%AD%87/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">LeanOn
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>All around the wind blows / We would only hold on to let go.
+“埃尔隆德？”
+“养父——你怎么在这里？我是说……天很晚了，外面风也大。”
+“没关系，精灵不会生病。埃尔洛斯呢？”
+“他睡着了。”
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-01-23 21:53:06 +0800 CST'>January 23, 2021</span></footer>
+  <a class="entry-link" aria-label="post link to LeanOn" href="http://localhost:1313/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/leanon/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">新年快乐
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>新年快乐。
+怎么说，写得挺渣的。
+梅格洛尔视角，愿我们不再绝望。
+那天的 Himring 格外寒冷。各种物资的储备都濒临短缺，尤其是木柴，现在只有火之厅才维持着一丝温度。更何况我刚刚在城墙上苦战了数个小时，现在还穿着铁甲和浸透了黑血的衣服。疲惫和饥饿接连对我发起猛攻，我疑心自己能不能完好地走回卧室。倘若竟需要医务兵送我回去的话，那将是人力资源的一种极大浪费，因为上面还有数百重伤者在呻吟，而我身上的血——万幸——都不是我的。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-01-01 21:17:58 +0800 CST'>January 1, 2021</span></footer>
+  <a class="entry-link" aria-label="post link to 新年快乐" href="http://localhost:1313/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="http://localhost:1313/page/4/">
+      «&nbsp;&nbsp;
+    </a>
+    <a class="next" href="http://localhost:1313/page/6/">&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Welcome, the forlorn</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
     };
-  </script>
-  <script async src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"  integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>
 
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
 
-
-
-
-
-
-
+</script>
 </body>
+
 </html>

@@ -1,399 +1,358 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
+<html lang="zh-cn" dir="auto" data-theme="auto">
+
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Welcome, the forlorn</title>
-  <meta name="renderer" content="webkit" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+	<meta name="generator" content="Hugo 0.160.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Welcome, the forlorn</title>
 
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.199042e659bc7245f5609d333d6c044eb554a0640849bb874e1dff8eb0f57209.css" integrity="sha256-GZBC5lm8ckX1YJ0zPWwETrVUoGQISbuHTh3/jrD1cgk=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml" title="rss">
+<link rel="alternate" hreflang="zh-cn" href="http://localhost:1313/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
 
-<meta name="theme-color" content="#f8f5ec" />
-<meta name="msapplication-navbutton-color" content="#f8f5ec">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
 
+            .list {
+                background: var(--theme);
+            }
 
-<meta name="author" content="Daegred" />
+            .toc {
+                background: var(--entry);
+            }
+        }
 
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
 
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
 
-
-
-
-<meta name="generator" content="Hugo 0.99.1 with theme even" />
-
-
-<link rel="canonical" href="http://daegred.netlify.app/" />
-  <link href="http://daegred.netlify.app/index.xml" rel="alternate" type="application/rss+xml" title="Welcome, the forlorn" />
-  <link href="http://daegred.netlify.app/index.xml" rel="feed" type="application/rss+xml" title="Welcome, the forlorn" />
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-
-
-
-<link href="/sass/main.min.75e365d9b9403657efb78f136ce6e08bb8d6a7761cbc49ec2a90557bbd729bf9.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
-
-
-<meta property="og:title" content="Welcome, the forlorn" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://daegred.netlify.app/" />
-
-<meta itemprop="name" content="Welcome, the forlorn">
-<meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Welcome, the forlorn"/>
-<meta name="twitter:description" content=""/>
-
-<!--[if lte IE 9]>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
-<![endif]-->
-
-<!--[if lt IE 9]>
-  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
-<![endif]-->
-
+</script>
 </head>
-<body>
-  <div id="mobile-navbar" class="mobile-navbar">
-  <div class="mobile-header-logo">
-    <a href="/" class="logo">May you find hope.</a>
-  </div>
-  <div class="mobile-navbar-icon">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-</div>
-<nav id="mobile-menu" class="mobile-menu slideout-menu">
-  <ul class="mobile-menu-list">
-    <a href="/">
-        <li class="mobile-menu-item">首页</li>
-      </a><a href="/post/">
-        <li class="mobile-menu-item">归档</li>
-      </a><a href="/categories/">
-        <li class="mobile-menu-item">分类</li>
-      </a><a href="/about/">
-        <li class="mobile-menu-item">关于</li>
-      </a>
-  </ul>
-</nav>
-  <div class="container" id="mobile-panel">
-    <header id="header" class="header">
-        <div class="logo-wrapper">
-  <a href="/" class="logo">May you find hope.</a>
-</div>
-
-<nav class="site-navbar">
-  <ul id="menu" class="menu">
-    <li class="menu-item">
-        <a class="menu-item-link" href="/">首页</a>
-      </li><li class="menu-item">
-        <a class="menu-item-link" href="/post/">归档</a>
-      </li><li class="menu-item">
-        <a class="menu-item-link" href="/categories/">分类</a>
-      </li><li class="menu-item">
-        <a class="menu-item-link" href="/about/">关于</a>
-      </li>
-  </ul>
-</nav>
-    </header>
-
-    <main id="main" class="main">
-      <div class="content-wrapper">
-        <div id="content" class="content">
-          <section id="posts" class="posts">
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c7-injection/">C7 Injection</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2020-07-04 </span>
-      <div class="post-category">
-          <a href="/categories/%E5%8B%BF%E5%BF%98%E6%88%91/"> 勿忘我 </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      白汶永远记得那天佩迪在制服下面穿了一双黑靴子，这并不是违规。这双靴子底硬，走在 Castellum No.17 的金属地面上会嗒嗒作响。他们列队走向那个充满了管线的小房间
-    </div>
-    <div class="read-more">
-      <a href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c7-injection/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c6-reincarnation/">C6 Reincarnation</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2020-07-03 </span>
-      <div class="post-category">
-          <a href="/categories/%E5%8B%BF%E5%BF%98%E6%88%91/"> 勿忘我 </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      C6 Reincarnation “白汶，你生日什么时候？” “你说的是星历（S. A.）吗？” “对啊。你生日什么时候的？” “二月底。” “啊哈哈哈，我五月的。我叫你白哥可以吗
-    </div>
-    <div class="read-more">
-      <a href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c6-reincarnation/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c5-test/">C5 test</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2020-06-25 </span>
-      <div class="post-category">
-          <a href="/categories/%E5%8B%BF%E5%BF%98%E6%88%91/"> 勿忘我 </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      每个上午的体能训练对白汶来说依旧是噩梦，不过在旋转时他倒是晕得最轻的那个。每个晚上他们都回到失重仓内训练，以适应这种漂浮的生活。白汶终于不再
-    </div>
-    <div class="read-more">
-      <a href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c5-test/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c4-temptation/">C4 temptation</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2020-06-25 </span>
-      <div class="post-category">
-          <a href="/categories/%E5%8B%BF%E5%BF%98%E6%88%91/"> 勿忘我 </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      如果您想阅读 NE 线，请忽略横线下的内容。 如果您想阅读 TE 线，请继续。 抱歉，此网页遭受了不明攻击，相关内容暂时无法查看。
-    </div>
-    <div class="read-more">
-      <a href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c4-temptation/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c4-game/">Cπ Game</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2020-06-23 </span>
-      <div class="post-category">
-          <a href="/categories/%E5%8B%BF%E5%BF%98%E6%88%91/"> 勿忘我 </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      Time: S.A.1120 Location: Cladach 萧袡和科利特夫人坐在 Cladach 的一间小屋里。萧袡注意到夫人有些不适应：Cladach 的重力加速度约为 11m/s，比空间站的标准配置大不少。她
-    </div>
-    <div class="read-more">
-      <a href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c4-game/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c3-gravity/">C3 Gravity</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2020-06-21 </span>
-      <div class="post-category">
-          <a href="/categories/%E5%8B%BF%E5%BF%98%E6%88%91/"> 勿忘我 </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      <p>C3 Gravity</p>
-<p>克莱帕疲惫地靠在讲台上，看着送到他手下的四个<strong>孩子</strong>。高个子的女孩眼神桀骜，矮些的那位温顺如绵羊；两个男生一个谨慎自卑，一个鲁莽粗糙。*没有一个是战士。*他几乎怀疑这是一个玩笑。</p>
-    </div>
-    <div class="read-more">
-      <a href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c3-gravity/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c2-candle/">C2 Candles</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2020-06-18 </span>
-      <div class="post-category">
-          <a href="/categories/%E5%8B%BF%E5%BF%98%E6%88%91/"> 勿忘我 </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      <p>#勿忘我</p>
-<p>S.A. 1120                                 Location: Castellum No.14</p>
-<p>正式集合还在明天，来自各个星球的实习飞行员们堆在休息室里，塔莫就是其中一员。她对拿到推荐信非常意外，因为她自认并不优秀。事实上，学生时代拿到的多少飞行奖项都不可能抵消她的这一认知，因为认知是先于证据而存在的：那些奖项总可以用师资、运气乃至性别优势来解释。她的室友刚把行李放好就急匆匆地跑了出去，全然不愿在寝室多待一秒；自己坐在那个小舱室里太过无聊，她便锁上门溜达出来，熟悉熟悉这地方。顺便等人。</p>
-    </div>
-    <div class="read-more">
-      <a href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c2-candle/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c1-departure/">C1 Departure</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2020-06-17 </span>
-      <div class="post-category">
-          <a href="/categories/%E5%8B%BF%E5%BF%98%E6%88%91/"> 勿忘我 </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      <p>#勿忘我</p>
-<p>S.A.1120                      Location: Griseo</p>
-<p>家乡的天气总是那么迷人，可惜我终于可以永远摆脱这里了，白汶站在自动扶梯上轻松愉快地想。从他记事以来，母星 Griseo 带给他的印象就是灰色。灰色的天空，灰色的建筑，灰色的交通线，灰色的口罩和灰色的制服。虽然此刻他仍被包裹在这颜色里，但却感觉这和他从前见过的灰色都不一样，轻盈而流动。或许是因为他此刻乘坐的扶梯将带他前往轨道电梯。在验证了内置芯片后，他就可以带着灰色的行李箱和背包登上那碳纤维造成的庞然大物。伴随着嗡嗡的声响和令人不适的巨大加速度，他和他同乘的旅客将以极快的速度上升，直到抵达 Griseo 唯一的星际中转站，和那片毛绒绒的深不见底的夜空。在那里，再经过一系列麻烦的验证和手续，他将被塞进一架老旧的飞船里，他几乎能想象那发动机呻吟般的声响，像下一秒就要崩溃了似的。然后，然后，他们会被中转站的跃迁系统弹射出去，破碎的空间围绕着飞船起舞——而他将第一次看到色彩。</p>
-    </div>
-    <div class="read-more">
-      <a href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c1-departure/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c0-prologue/">C0 Prologue</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2020-06-12 </span>
-      <div class="post-category">
-          <a href="/categories/%E5%8B%BF%E5%BF%98%E6%88%91/"> 勿忘我 </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      Time: S.A.1134 Location: Arenae 佩迪·科利特端坐在酒馆里，右手两根手指夹着玻璃杯。她已喝醉了，但仍坐得像铁雕塑一般，叫人根本看不出来。曾有人说像她这样的女人足以逃过
-    </div>
-    <div class="read-more">
-      <a href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/c0-prologue/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/%E5%8B%BF%E5%BF%98%E6%88%91readme/">勿忘我-ReadMe</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2020-06-12 </span>
-      <div class="post-category">
-          <a href="/categories/%E5%8B%BF%E5%BF%98%E6%88%91/"> 勿忘我 </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      《勿忘我》是一个原创小说。 ABO设定，星际战争背景，或许算是软科幻。 在必要的位置可能出现（并不准确的）性描写、暴力描写，可能有主要角色死亡。
-    </div>
-    <div class="read-more">
-      <a href="/post/%E5%8B%BF%E5%BF%98%E6%88%91/%E5%8B%BF%E5%BF%98%E6%88%91readme/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    </section>
-  
-  <nav class="pagination">
-    <a class="prev" href="/page/9/">
-        <i class="iconfont icon-left"></i>
-        <span class="prev-text">上一页</span>
-      </a>
-    <a class="next" href="/page/11/">
-        <span class="next-text">下一页</span>
-        <i class="iconfont icon-right"></i>
-      </a>
-  </nav>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Welcome, the forlorn (Alt + H)">Welcome, the forlorn</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
         </div>
-        
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="首页">
+                    <span class="active">首页</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/post/" title="归档">
+                    <span>归档</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/" title="分类">
+                    <span>分类</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="关于">
+                    <span>关于</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
 
-      </div>
-    </main>
-
-    <footer id="footer" class="footer">
-      <div class="social-links">
-      <a href="mailto:azerty618@126.com" class="iconfont icon-email" title="email"></a>
-      <a href="http://daegred.lofter.com" class="iconfont icon-tumblr" title="tumblr"></a>
-  <a href="http://daegred.netlify.app/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
-</div>
-
-
-
-  
-
-  <span class="copyright-year">
-    &copy; 
-     - 
-    2026
-    <span class="heart">
-      <i class="iconfont icon-heart"></i>
-    </span>
-    <span class="author">Daegred</span>
-  </span>
-</div>
-    </footer>
-
-    <div class="back-to-top" id="back-to-top">
-      <i class="iconfont icon-up"></i>
-    </div>
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">C21 Not Today
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>梅娅·罗贝尔醒来时蓝色灯光行将熄灭。父母已经在后厨忙碌，把食物原料放进自动清洗机，然后放进一边的处理模块切开。她轻手轻脚地把扫地机打开，放在地上，机器嗡嗡作响，行走的姿态甚是可爱。桌子本身是抗污染的，但她还是用清洁机又过了一遍。这时白色灯光亮起，宣告着 Castellum No.14 里一天的开始。梅娅按下按钮，西贝柳斯的《芬兰颂》从播放器内宣泄而下，充满了整家不算大的餐厅。她满意地审视一下自己的杰作，准备待会到校上通识课。
+...</p>
   </div>
-  
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+  <footer class="entry-footer"><span title='2020-07-29 13:57:16 +0800 CST'>July 29, 2020</span>&nbsp;·&nbsp;<span>Daegred</span></footer>
+  <a class="entry-link" aria-label="post link to C21 Not Today" href="http://localhost:1313/post/%E5%8B%BF%E5%BF%98%E6%88%91/c21-not-today/"></a>
+</article>
 
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">A Gust of Wind
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>A Gust of Wind CP 为 EM，这个字母组合可以随意理解。
+OOC 致歉。这是个神奇的流水账。二梅疯批文学预警 基本遵照诺多史的设定：迈德洛斯收养了埃尔隆德，双方后来萌生了亲情。迈德洛斯亦主张放弃誓言返回维林诺，而玛格洛尔主张抢夺宝钻。结局为迈德洛斯将宝钻交给伊昂威后自杀，玛格洛尔将宝钻扔进火海并失踪。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2020-07-27 17:50:01 +0800 CST'>July 27, 2020</span></footer>
+  <a class="entry-link" aria-label="post link to A Gust of Wind" href="http://localhost:1313/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/a-gust-of-wind/"></a>
+</article>
 
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">C20 Abyss
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>白汶在几年前面对过相似的敌人，在模拟器里。现在他和一架真正的歼星舰面面相觑，感觉上却并不比上一次更加真实。可能是距离问题，通讯设备里只有一片杂音；他右上方有一盏烦人的红灯，指示氧气即将告罄；雷达系统不断发出警告。他很清楚自己面对的是什么：死亡。他们在第一次上机时便模模糊糊看见的东西。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2020-07-23 13:57:16 +0800 CST'>July 23, 2020</span>&nbsp;·&nbsp;<span>Daegred</span></footer>
+  <a class="entry-link" aria-label="post link to C20 Abyss" href="http://localhost:1313/post/%E5%8B%BF%E5%BF%98%E6%88%91/c20-abyss/"></a>
+</article>
 
-<script type="text/javascript" src="/js/main.min.30dad356188cdaba5047112eaa8bf5e85cb14ae7e803337403591fce94a531a0.js"></script>
-  <script type="text/javascript">
-    window.MathJax = {
-      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
-      TeX: {equationNumbers: {autoNumber: "AMS"}},
-      showProcessingMessages: false,
-      messageStyle: 'none'
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">C19 A Fallen Star
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>(Castellum No. 14)
+那一场惊心动魄的逃亡刚刚结束，塔莫刹住飞船，从未如此感激能看见 Castellum No. 14 浮现在她面前。周遭迷离的色彩渐渐散去，清冷的星空浮现出来。
+“一号机在。”佩迪喘着粗气说。塔莫：“收到。”
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2020-07-19 13:57:16 +0800 CST'>July 19, 2020</span>&nbsp;·&nbsp;<span>Daegred</span></footer>
+  <a class="entry-link" aria-label="post link to C19 A Fallen Star" href="http://localhost:1313/post/%E5%8B%BF%E5%BF%98%E6%88%91/c19-fallen-star/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">C18 Behind You
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>#勿忘我
+几天后这场分手事件的余波就散去了，各人又回到了原先的生活轨道。上飞机，进行训练，降落后因为疲倦迅速入睡，能挣扎着看本书的都是少数人。白汶在头一次上机时迅速地恢复了 Stellae 的权限，AI 用委屈的语气和他说：“先生，我做错了什么吗？”
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2020-07-17 13:57:16 +0800 CST'>July 17, 2020</span>&nbsp;·&nbsp;<span>Daegred</span></footer>
+  <a class="entry-link" aria-label="post link to C18 Behind You" href="http://localhost:1313/post/%E5%8B%BF%E5%BF%98%E6%88%91/c18-behind-you/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">C17 Without You
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>佩迪呆呆地坐在禁闭室内：她终于还是搞砸了。那让人不愿回想的主意是她的灵机一动，只为了让白汶免于更严重的惩罚。她在一巴掌扇过去的时候还天真地以为，最严重的后果不过是一场大吵、一次短暂的冷战，绝不至于成为永久的告别。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2020-07-14 13:57:16 +0800 CST'>July 14, 2020</span>&nbsp;·&nbsp;<span>Daegred</span></footer>
+  <a class="entry-link" aria-label="post link to C17 Without You" href="http://localhost:1313/post/%E5%8B%BF%E5%BF%98%E6%88%91/c17-without-you/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">C16 Out of Reach
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>克莱帕头疼地坐在会议室外边，感慨自己的得意门生怎么比自己年轻时还能违反规定。他和莱蒙当年不过是被教练关几天禁闭，现在这一对连他也护不住了。他只能期待佩迪和白汶面对问询能有个好的答复，或许还能减轻些惩罚。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2020-07-12 13:57:16 +0800 CST'>July 12, 2020</span>&nbsp;·&nbsp;<span>Daegred</span></footer>
+  <a class="entry-link" aria-label="post link to C16 Out of Reach" href="http://localhost:1313/post/%E5%8B%BF%E5%BF%98%E6%88%91/c16-out-of-reach/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">C12 Madly in Love
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>如果您想阅读 NE 线，请忽略横线下的内容。 如果您想阅读 TE 线，请继续。
+抱歉，此网页遭受 55m95rG2 攻击，正文内容 5bey57uP5peg5rOV5q2j5bi4 显示。
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2020-07-10 13:57:16 +0800 CST'>July 10, 2020</span>&nbsp;·&nbsp;<span>Auto</span></footer>
+  <a class="entry-link" aria-label="post link to C12 Madly in Love" href="http://localhost:1313/post/%E5%8B%BF%E5%BF%98%E6%88%91/c12-madly-in-love/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">C14 Future
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>#勿忘我
+S. A. 1122，Castellum No. 14
+（也可以说我们是跳过了两年时间）
+每到年底，太空城都会调高灯光的暖度，因为绝大多数旧历法都把重大节日放在这一个月里。塔莫和希理斯踩着暖融融的灯光走进那家卖鱼馅饼的小餐馆。快两年来，他们独享二人世界的时候并不算多，大部分时候爱意只能用一个暧昧的机动动作、一份冷了的饮料或者两三条三四条积攒起来的聊天记录草草表达。他们听说前线吃紧，并且切身体会到了，因为训练的节奏越发紧张。学员时常凌晨被叫起来飞行，甚至曾经有一次连着飞了近三十小时。后来塔莫指挥的时候声音都哑了。在这种巨大的压力和不确定性之下过了两个月后，全体成员（包括克莱帕）接近崩溃。这时命令总算下来了：他们将有四天假期。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2020-07-10 13:57:16 +0800 CST'>July 10, 2020</span>&nbsp;·&nbsp;<span>Daegred</span></footer>
+  <a class="entry-link" aria-label="post link to C14 Future" href="http://localhost:1313/post/%E5%8B%BF%E5%BF%98%E6%88%91/c14-future-prospects/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">C15 Escapist
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>#勿忘我
+（这一章建议配一个 BGM 来读，理论上来说只要有旋律就可以了）
+白汶左手在空中一挥，Stellae 的交互界面悬浮在空中。他迅速关掉了录音、扬声器和录像权限。佩迪飘在他身旁，看见权限取消通知她呼了一口气。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2020-07-10 13:57:16 +0800 CST'>July 10, 2020</span>&nbsp;·&nbsp;<span>Daegred</span></footer>
+  <a class="entry-link" aria-label="post link to C15 Escapist" href="http://localhost:1313/post/%E5%8B%BF%E5%BF%98%E6%88%91/c15-escapist/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="http://localhost:1313/page/9/">
+      «&nbsp;&nbsp;
+    </a>
+    <a class="next" href="http://localhost:1313/page/11/">&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Welcome, the forlorn</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
     };
-  </script>
-  <script async src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"  integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>
 
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
 
-
-
-
-
-
-
+</script>
 </body>
+
 </html>

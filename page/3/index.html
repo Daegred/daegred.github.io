@@ -1,394 +1,359 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
+<html lang="zh-cn" dir="auto" data-theme="auto">
+
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Welcome, the forlorn</title>
-  <meta name="renderer" content="webkit" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+	<meta name="generator" content="Hugo 0.160.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Welcome, the forlorn</title>
 
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.199042e659bc7245f5609d333d6c044eb554a0640849bb874e1dff8eb0f57209.css" integrity="sha256-GZBC5lm8ckX1YJ0zPWwETrVUoGQISbuHTh3/jrD1cgk=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml" title="rss">
+<link rel="alternate" hreflang="zh-cn" href="http://localhost:1313/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
 
-<meta name="theme-color" content="#f8f5ec" />
-<meta name="msapplication-navbutton-color" content="#f8f5ec">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
 
+            .list {
+                background: var(--theme);
+            }
 
-<meta name="author" content="Daegred" />
+            .toc {
+                background: var(--entry);
+            }
+        }
 
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
 
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
 
-
-
-
-<meta name="generator" content="Hugo 0.99.1 with theme even" />
-
-
-<link rel="canonical" href="http://daegred.netlify.app/" />
-  <link href="http://daegred.netlify.app/index.xml" rel="alternate" type="application/rss+xml" title="Welcome, the forlorn" />
-  <link href="http://daegred.netlify.app/index.xml" rel="feed" type="application/rss+xml" title="Welcome, the forlorn" />
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-
-
-
-<link href="/sass/main.min.75e365d9b9403657efb78f136ce6e08bb8d6a7761cbc49ec2a90557bbd729bf9.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
-
-
-<meta property="og:title" content="Welcome, the forlorn" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://daegred.netlify.app/" />
-
-<meta itemprop="name" content="Welcome, the forlorn">
-<meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Welcome, the forlorn"/>
-<meta name="twitter:description" content=""/>
-
-<!--[if lte IE 9]>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
-<![endif]-->
-
-<!--[if lt IE 9]>
-  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
-<![endif]-->
-
+</script>
 </head>
-<body>
-  <div id="mobile-navbar" class="mobile-navbar">
-  <div class="mobile-header-logo">
-    <a href="/" class="logo">May you find hope.</a>
-  </div>
-  <div class="mobile-navbar-icon">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-</div>
-<nav id="mobile-menu" class="mobile-menu slideout-menu">
-  <ul class="mobile-menu-list">
-    <a href="/">
-        <li class="mobile-menu-item">首页</li>
-      </a><a href="/post/">
-        <li class="mobile-menu-item">归档</li>
-      </a><a href="/categories/">
-        <li class="mobile-menu-item">分类</li>
-      </a><a href="/about/">
-        <li class="mobile-menu-item">关于</li>
-      </a>
-  </ul>
-</nav>
-  <div class="container" id="mobile-panel">
-    <header id="header" class="header">
-        <div class="logo-wrapper">
-  <a href="/" class="logo">May you find hope.</a>
-</div>
-
-<nav class="site-navbar">
-  <ul id="menu" class="menu">
-    <li class="menu-item">
-        <a class="menu-item-link" href="/">首页</a>
-      </li><li class="menu-item">
-        <a class="menu-item-link" href="/post/">归档</a>
-      </li><li class="menu-item">
-        <a class="menu-item-link" href="/categories/">分类</a>
-      </li><li class="menu-item">
-        <a class="menu-item-link" href="/about/">关于</a>
-      </li>
-  </ul>
-</nav>
-    </header>
-
-    <main id="main" class="main">
-      <div class="content-wrapper">
-        <div id="content" class="content">
-          <section id="posts" class="posts">
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/%E6%96%AD%E7%AB%A0/">断章</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2023-03-11 </span>
-      <div class="post-category">
-          <a href="/categories/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/"> 二次创作 </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      本意是 Silchas 带着 Rud 去 Kurald Galain 旅游，最后拼成这样一个奇怪的单口相声（。）地图凭印象，事件没考证，名字一概不翻译，讲究一个 OOC 和粗制滥造 推荐 BGM：Gla
-    </div>
-    <div class="read-more">
-      <a href="/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/%E6%96%AD%E7%AB%A0/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/itkovian_1/">麻辣子读书杂感-1</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2023-03-07 </span>
-      <div class="post-category">
-          <a href="/categories/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/"> 二次创作 </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      Itkovian 的最后一战 有关 Itkovian 的一点个人意见，大概率有这样那样的偏颇。卷三 FoL 和卷八的剧透预警 Coral 攻城战期间的重要事件之一，是 Itkovian 拥抱 Kron T&rsquo;lan Imass。此事从 Brood
-    </div>
-    <div class="read-more">
-      <a href="/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/itkovian_1/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/three_reasons_to_kill/">三条理由</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2023-01-30 </span>
-      <div class="post-category">
-          <a href="/categories/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/"> 二次创作 </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      设定：Andarist 从 Drift Avalii 的战斗中幸存下来。 含有要素：高浓度 OOC，错误的辩经，对 WiS 时期事件的胡扯，对正传时期事件的魔改，对原著的化用，C
-    </div>
-    <div class="read-more">
-      <a href="/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/three_reasons_to_kill/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/elrond_guide/">Elrond的向导成长手记</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2023-01-13 </span>
-      <div class="post-category">
-          <a href="/categories/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/"> 二次创作 </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      双梅双子，我流哨向设定。Elrond 视角。 本文含有：致死量 OOC，原创角色，错误的唯我论，禁止深究的情节 我记得我做了一个很长的噩梦，它如此恐
-    </div>
-    <div class="read-more">
-      <a href="/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/elrond_guide/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/silchas_rud_1/">篝火</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2022-12-26 </span>
-      <div class="post-category">
-          <a href="/categories/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/"> 二次创作 </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      篝火 Silchas Ruin &amp; Rud Elalle，激情闯作一些没头没尾的无聊造谣小段子。OOC 预警。 写不出明为讲学、暗为调情的感觉，本文含有以下要素：抄袭正传，抄袭
-    </div>
-    <div class="read-more">
-      <a href="/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/silchas_rud_1/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/impossibilities0/">Impossibilities-0</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2022-11-12 </span>
-      <div class="post-category">
-          <a href="/categories/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/"> 二次创作 </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      Impossibilities - Part 0 (not to be continued). 我尽力了但还是觉得挺 OOC 的。 《论救 Andarist》的不完全版后续，大体上来说是个 Silchas 救了 Andarist 之后抢了一艘船去 Black Coral 的故事。内含An
-    </div>
-    <div class="read-more">
-      <a href="/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/impossibilities0/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/fallenboughs/">Fallen Boughs</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2022-07-25 </span>
-      <div class="post-category">
-          <a href="/categories/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/"> 二次创作 </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      一句话简介：等待你的种子生长成大树，然后砍下它作船只的桅杆。 梅格洛尔中心，充满了个人理解和 OOC。 来到 Alqualonde 的第一晚，柔光交织的时刻，他在钻石海
-    </div>
-    <div class="read-more">
-      <a href="/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/fallenboughs/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/detectivem/">DetectiveM</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2022-05-29 </span>
-      <div class="post-category">
-          <a href="/categories/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/"> 二次创作 </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      现代 AU。侦探二梅接到了螺丝调查西瑞安真相的委托 20000 字，一发完 预警：OOC；违反常识的错误；graphic depiction of violence 楔子 下午三点，梅格洛尔完成了最
-    </div>
-    <div class="read-more">
-      <a href="/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/detectivem/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/anomandersilchas1/">Anomander &amp; Silchas (1)</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2022-01-14 </span>
-      <div class="post-category">
-          <a href="/categories/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/"> 二次创作 </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      我曾经说过，饿又写不出粮的人，将把原著当成粮来吃。我是认真的。 全部内容节选自 Steven Erikson 的 The Malazan Book of the Fallen（aka 正传），亚马逊电子书版。仅供
-    </div>
-    <div class="read-more">
-      <a href="/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/anomandersilchas1/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/%E9%9A%8F%E7%AC%94/%E6%9C%80%E5%90%8E%E4%B8%80%E5%B1%8A%E8%BF%90%E5%8A%A8%E4%BC%9A/">最后一届运动会</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2021-09-30 </span>
-      <div class="post-category">
-          <a href="/categories/%E9%9A%8F%E7%AC%94/"> 随笔 </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      第一次来这里比赛时，我还算半个特长生，在区里比赛能拿前八的那种。之所以那次在一所中学而不是体育馆里比赛，是因为体育馆在修。那次的 1500m，
-    </div>
-    <div class="read-more">
-      <a href="/post/%E9%9A%8F%E7%AC%94/%E6%9C%80%E5%90%8E%E4%B8%80%E5%B1%8A%E8%BF%90%E5%8A%A8%E4%BC%9A/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    </section>
-  
-  <nav class="pagination">
-    <a class="prev" href="/page/2/">
-        <i class="iconfont icon-left"></i>
-        <span class="prev-text">上一页</span>
-      </a>
-    <a class="next" href="/page/4/">
-        <span class="next-text">下一页</span>
-        <i class="iconfont icon-right"></i>
-      </a>
-  </nav>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Welcome, the forlorn (Alt + H)">Welcome, the forlorn</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
         </div>
-        
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="首页">
+                    <span class="active">首页</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/post/" title="归档">
+                    <span>归档</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/" title="分类">
+                    <span>分类</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="关于">
+                    <span>关于</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
 
-      </div>
-    </main>
-
-    <footer id="footer" class="footer">
-      <div class="social-links">
-      <a href="mailto:azerty618@126.com" class="iconfont icon-email" title="email"></a>
-      <a href="http://daegred.lofter.com" class="iconfont icon-tumblr" title="tumblr"></a>
-  <a href="http://daegred.netlify.app/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
-</div>
-
-
-
-  
-
-  <span class="copyright-year">
-    &copy; 
-     - 
-    2026
-    <span class="heart">
-      <i class="iconfont icon-heart"></i>
-    </span>
-    <span class="author">Daegred</span>
-  </span>
-</div>
-    </footer>
-
-    <div class="back-to-top" id="back-to-top">
-      <i class="iconfont icon-up"></i>
-    </div>
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">真男人都是好闺蜜
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>重度 OOC 预警，Silchas Ruin/Seren Pedac
+本文含有：纯洁的闺蜜情，错误医疗操作，精神状态堪忧的角色，大量和卷五、七、九违背的细节
+事情发生得太多、太快，Seren Pedac 有些不明白它们怎么能塞到一天里去。早上（可以这么说吗？毕竟，这一天跨越了三个世界），她还站在 Starvald Demelain 的三重太阳底下。然后是毫无道理的决战，和 Trull Sengar 一起回 Letheras 的草率决定，Imass 的治愈歌谣，对挽留的谢绝。接着是随法师回到 Letheras，看到破败的街道、被踩烂的水果车，以及掳掠一空的房子——为什么我一点也不惊讶？ 稍晚于正午时分，也是那位法师给她带来了 Trull Sengar 身故的消息。
+...</p>
   </div>
-  
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+  <footer class="entry-footer"><span title='2023-07-28 23:09:31 +0800 CST'>July 28, 2023</span></footer>
+  <a class="entry-link" aria-label="post link to 真男人都是好闺蜜" href="http://localhost:1313/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/s-s/"></a>
+</article>
 
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Ephemeral
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Ephemeral 期末的阴影笼罩在我的头上而我会口嗨一点严重 OOC 的官配（？）小段子，Silchas Ruin/Hish Tulla，pre-FoD
+“我给不了你想要的东西。”Silchas 说。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-06-20 16:08:26 +0800 CST'>June 20, 2023</span></footer>
+  <a class="entry-link" aria-label="post link to Ephemeral" href="http://localhost:1313/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/ephemeral/"></a>
+</article>
 
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">梅
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Written by Mey.
+Excerpt of text.
+他将会多次梦见自己最后一次坐在父亲车后座的情景，并在某一天突然悟到，所谓命运不过是一系列精心设计过的小事。“我为什么非得在那天返乡呢？”他会问自己。然后他会想到自己是怎么在潮湿的半地下室里，蜷缩在床的靠墙一半，试图从所有日期的车票里挑出最便宜的一张。下一个问题是，为什么要父亲去接他。这时他会提醒自己，别用这些无谓的问题增加自己的烦恼：他离家求学、求职的七年间，每逢快撑不下去、打电话回家的时候，父亲总要和他说一句：想家了就回来啊，我去车站接你。然后他又会想起回家乡的那趟列车，他此次回家没告诉任何人，包括女友梅。前一天半夜，他在地铁上扛着行李、疲惫不堪地站着的时候，梅还给他发过消息，是一篇关于新型性爱娃娃的伦理问题的文章，配上她标志性的“操”。他会打着哈欠回复她的消息，尽量不敷衍，为此把那篇文章读了两三遍。困倦时人的记忆力按说该很差，但那篇文章偏偏（暂时性地）被刻在了他的脑子里。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-06-20 16:01:11 +0800 CST'>June 20, 2023</span></footer>
+  <a class="entry-link" aria-label="post link to 梅" href="http://localhost:1313/post/%E9%9A%8F%E7%AC%94/%E6%A2%85/"></a>
+</article>
 
-<script type="text/javascript" src="/js/main.min.30dad356188cdaba5047112eaa8bf5e85cb14ae7e803337403591fce94a531a0.js"></script>
-  <script type="text/javascript">
-    window.MathJax = {
-      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
-      TeX: {equationNumbers: {autoNumber: "AMS"}},
-      showProcessingMessages: false,
-      messageStyle: 'none'
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">20230415
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>有机期中前来简单发癫一下
+一、桌子的定义 一个食堂的桌子通常可以坐四个人。以桌边的某一个人为参考，对面的位置称为对位，旁边的位置称为邻位，斜对角的位置是间隔的，因此称为间位。大学生在桌边坐下，排开了一定体积的空气，称为取代反应。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-04-15 21:56:55 +0800 CST'>April 15, 2023</span></footer>
+  <a class="entry-link" aria-label="post link to 20230415" href="http://localhost:1313/post/%E9%9A%8F%E7%AC%94/20230415/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Malazan存档4
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Tiste Andii 传统艺能教学 Rud Elalle / Silchas Ruin，含有奇怪战损要素的写得稀烂的 pwp 段子（是真的 pwp）。所有和专有名词贴边的东西一概不翻译。和原作有明显矛盾，但我不管。严重 OOC！严重 OOC！不想被我创死的人请立刻左转退出！
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-04-07 11:23:42 +0800 CST'>April 7, 2023</span></footer>
+  <a class="entry-link" aria-label="post link to Malazan存档4" href="http://localhost:1313/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/malazan%E5%AD%98%E6%A1%A34/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">断章
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>本意是 Silchas 带着 Rud 去 Kurald Galain 旅游，最后拼成这样一个奇怪的单口相声（。）地图凭印象，事件没考证，名字一概不翻译，讲究一个 OOC 和粗制滥造
+推荐 BGM：Glass Animals 任意一首（听着写的，不听也行）
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-03-11 11:06:06 +0800 CST'>March 11, 2023</span></footer>
+  <a class="entry-link" aria-label="post link to 断章" href="http://localhost:1313/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/%E6%96%AD%E7%AB%A0/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">麻辣子读书杂感-1
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Itkovian 的最后一战 有关 Itkovian 的一点个人意见，大概率有这样那样的偏颇。卷三 FoL 和卷八的剧透预警
+Coral 攻城战期间的重要事件之一，是 Itkovian 拥抱 Kron T’lan Imass。此事从 Brood 方面援军抵达 Coral 开始，到 Coral 城破后才结束，导致 Kron 全程没有进入战场。因为不死之身的 T’lan Imass 是当时对抗不死 K’Chain Che’Malle 的唯三有效战力之一，且当时 T’lan Ay 已归 Beast Throne，而弹药又各种不足，他们的缺席造成了严重的后果。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-03-07 18:07:41 +0800 CST'>March 7, 2023</span></footer>
+  <a class="entry-link" aria-label="post link to 麻辣子读书杂感-1" href="http://localhost:1313/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/itkovian_1/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Malazan存档3
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>全是纯纯的 whump，满足个人 xp 的奇怪产物，性质类似 pwp（不是说我真的会炖肉的意思）。不合理且严重 OOC，除了战损爱好者其他人不建议入内，否则大概率被我创死。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-01-30 22:25:03 +0800 CST'>January 30, 2023</span></footer>
+  <a class="entry-link" aria-label="post link to Malazan存档3" href="http://localhost:1313/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/malazan%E5%AD%98%E6%A1%A33/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">三条理由
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>设定：Andarist 从 Drift Avalii 的战斗中幸存下来。
+含有要素：高浓度 OOC，错误的辩经，对 WiS 时期事件的胡扯，对正传时期事件的魔改，对原著的化用，Caladan/Rake，Andarist&amp;Rake?
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-01-30 21:11:43 +0800 CST'>January 30, 2023</span></footer>
+  <a class="entry-link" aria-label="post link to 三条理由" href="http://localhost:1313/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/three_reasons_to_kill/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Elrond的向导成长手记
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>双梅双子，我流哨向设定。Elrond 视角。
+本文含有：致死量 OOC，原创角色，错误的唯我论，禁止深究的情节
+我记得我做了一个很长的噩梦，它如此恐怖以至于不能用语言表达其内容。我记得一团浓稠的黑暗，从各个方向包围着我，拉扯又压迫，要把我撕成碎片；记得可怕的声音，是争吵、战斗和死人呻吟的动静的叠加；我记得血的气味，而所有这些元素都混乱地组合在一起。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-01-13 18:27:24 +0800 CST'>January 13, 2023</span></footer>
+  <a class="entry-link" aria-label="post link to Elrond的向导成长手记" href="http://localhost:1313/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/elrond_guide/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="http://localhost:1313/page/2/">
+      «&nbsp;&nbsp;
+    </a>
+    <a class="next" href="http://localhost:1313/page/4/">&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Welcome, the forlorn</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
     };
-  </script>
-  <script async src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"  integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>
 
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
 
-
-
-
-
-
-
+</script>
 </body>
+
 </html>
