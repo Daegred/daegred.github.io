@@ -20,11 +20,11 @@
     </item>
     
     <item>
-      <title>奇幻</title>
-      <link>http://localhost:1313/tags/%E5%A5%87%E5%B9%BB/</link>
-      <pubDate>Sat, 28 Feb 2026 17:56:46 +0800</pubDate>
+      <title>随便吧我也不知道我在写啥</title>
+      <link>http://localhost:1313/tags/%E9%9A%8F%E4%BE%BF%E5%90%A7%E6%88%91%E4%B9%9F%E4%B8%8D%E7%9F%A5%E9%81%93%E6%88%91%E5%9C%A8%E5%86%99%E5%95%A5/</link>
+      <pubDate>Sun, 12 Apr 2026 23:28:28 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/%E5%A5%87%E5%B9%BB/</guid>
+      <guid>http://localhost:1313/tags/%E9%9A%8F%E4%BE%BF%E5%90%A7%E6%88%91%E4%B9%9F%E4%B8%8D%E7%9F%A5%E9%81%93%E6%88%91%E5%9C%A8%E5%86%99%E5%95%A5/</guid>
       <description></description>
       
     </item>
@@ -32,9 +32,19 @@
     <item>
       <title>原创小说</title>
       <link>http://localhost:1313/tags/%E5%8E%9F%E5%88%9B%E5%B0%8F%E8%AF%B4/</link>
-      <pubDate>Sat, 28 Feb 2026 17:56:46 +0800</pubDate>
+      <pubDate>Sun, 12 Apr 2026 23:28:28 +0800</pubDate>
       
       <guid>http://localhost:1313/tags/%E5%8E%9F%E5%88%9B%E5%B0%8F%E8%AF%B4/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>奇幻</title>
+      <link>http://localhost:1313/tags/%E5%A5%87%E5%B9%BB/</link>
+      <pubDate>Sat, 28 Feb 2026 17:56:46 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/%E5%A5%87%E5%B9%BB/</guid>
       <description></description>
       
     </item>
