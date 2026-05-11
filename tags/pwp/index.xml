@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pwp on 首页</title>
+    <link>http://localhost:1313/tags/pwp/</link>
+    <description>Recent content in Pwp on 首页</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2026 Daegred</copyright>
+    <lastBuildDate>Mon, 11 May 2026 20:14:59 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/pwp/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>不做就出不去的房间</title>
+      <link>http://localhost:1313/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/roomnoexit/</link>
+      <pubDate>Mon, 11 May 2026 20:14:59 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/%E4%BA%8C%E6%AC%A1%E5%88%9B%E4%BD%9C/roomnoexit/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
